@@ -159,12 +159,3 @@ html {
   transform: translate(-50%, -50%);
   display: none;
 }
-
-.cursor-dot.show-label {
-  display: block;
-}
-
-.cursor-label {
-  pointer-events: none;
-}
-
