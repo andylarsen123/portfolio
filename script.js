@@ -17,8 +17,9 @@ document.getElementById('dark-toggle').addEventListener('click', () => {
 
 });
 
-const dot = document.querySelector('.cursor-dot');
+const cursorDot = document.querySelector('.cursor-dot');
 
-window.addEventListener('mousemove', (e) => {
-  dot.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+document.addEventListener('mousemove', (e) => {
+  cursorDot.style.left = `${e.clientX}px`;
+  cursorDot.style.top = `${e.clientY}px`;
 });
