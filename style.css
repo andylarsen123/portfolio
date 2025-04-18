@@ -140,3 +140,8 @@ body.dark .project {
   background: #222;
   border-color: #333;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
