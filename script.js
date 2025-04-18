@@ -25,15 +25,3 @@ document.addEventListener('DOMContentLoaded', () => {
     cursorDot.style.top = `${e.clientY}px`;
   });
 });
-
-const cursorLabelEls = document.querySelectorAll('a, button');
-
-cursorLabelEls.forEach(el => {
-  el.addEventListener('mouseenter', () => {
-    cursorDot.classList.add('show-label');
-  });
-  el.addEventListener('mouseleave', () => {
-    cursorDot.classList.remove('show-label');
-  });
-});
-
