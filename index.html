@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
+  <title>Your Name | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -13,32 +14,36 @@
       <a href="#projects">Projects</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
+      <button id="dark-toggle">🌙</button>
     </nav>
   </header>
 
   <main>
-    <section id="hero">
+    <section id="hero" class="fade-in">
       <h2>Creative Developer & Designer</h2>
       <p>Exploring the intersection of art and code.</p>
     </section>
 
-    <section id="projects">
+    <section id="projects" class="fade-in">
       <h3>Projects</h3>
       <div class="project-list">
-        <!-- You can repeat this div for each project -->
         <div class="project">
           <h4>Project Title</h4>
           <p>Short description of the project.</p>
         </div>
+        <div class="project">
+          <h4>Another Project</h4>
+          <p>Short description of another project.</p>
+        </div>
       </div>
     </section>
 
-    <section id="about">
+    <section id="about" class="fade-in">
       <h3>About Me</h3>
       <p>A few lines about who you are, what you love, and what you do.</p>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="fade-in">
       <h3>Contact</h3>
       <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
     </section>
@@ -51,4 +56,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
