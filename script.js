@@ -14,4 +14,11 @@ document.querySelectorAll('.fade-in').forEach(el => {
 // Dark mode toggle
 document.getElementById('dark-toggle').addEventListener('click', () => {
   document.body.classList.toggle('dark');
+
+});
+
+const dot = document.querySelector('.cursor-dot');
+
+window.addEventListener('mousemove', (e) => {
+  dot.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
 });
